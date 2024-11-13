@@ -3,13 +3,14 @@
  小智旅途，是一款通过ai自动生成旅行规划的app。仅需几步，就能自动定制旅行规划。
  
  上线日期：2024年11月
- 
- ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d5f7ecc2093f4e47b95c5d519a70da89.png#pic_center)
+![未命名.png|700](https://hz-drawing.oss-cn-hangzhou.aliyuncs.com/markdown/20241113/%E6%9C%AA%E5%91%BD%E5%90%8D-5acc20.png)
+
 ## 整体架构流程
 
 目前流量口都是来自于app（ios端），后端由服务承接。针对常用的请求数据，采用redis缓存。需要持久化的数据，则存入数据库。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/49fc7e93c96a465d99158760c6562ab0.png#pic_center =660x460)
+![小智旅途架构设计.png|700](https://hz-drawing.oss-cn-hangzhou.aliyuncs.com/markdown/20241113/%E5%B0%8F%E6%99%BA%E6%97%85%E9%80%94%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1-95a015.png)
+
 
 ## 技术细节
 
@@ -34,3 +35,6 @@
 
 3. **是否已经拥有了专业的运营团队？**
 很遗憾，目前还没有，都是我本人在兼着。欢迎有运营经验的小伙伴一起参与合作，至少可以聊一聊。如果有团队愿意收购的话，也是欢迎的。欢迎私信。
+
+## 联系方式
+邮箱地址：zhanghai793941@163.com
